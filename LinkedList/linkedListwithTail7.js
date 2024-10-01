@@ -53,7 +53,7 @@ class LinKedlist {
             this.size++;
         }
     }
-
+    //todo ************************************************************
     prepend(value) {
         // Crear un nuevo nodo con el valor proporcionado
         const node = new Node(value);
@@ -113,7 +113,7 @@ class LinKedlist {
         // Retorna el valor del nodo eliminado
         return value;
     }
-
+    //todo ************************************************************
     //Elimina el último nodo (cola) de la lista enlazada y devuelve su valor.
     removeFromEnd() {
         // Verifica si la lista está vacía
