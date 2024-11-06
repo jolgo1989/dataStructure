@@ -5,6 +5,7 @@ const usuario = {
     // Agregar una función para saludar
     saludar() {
         console.log(`Hola, mi nombre es ${this.nombre} y tengo ${this.edad} años.`);
+        // this es una palabra clave que se refiere al contexto en el que se está ejecutando una función.
     }
 }
 //Imprimir a las propiedades de un objeto
